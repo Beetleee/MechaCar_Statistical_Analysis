@@ -8,7 +8,7 @@
 
 ### Statistical Summary: 
 
-Plot 1
+https://github.com/Beetleee/MechaCar_Statistical_Analysis/blob/main/Resources/plot1.png
 
 ### We performed a linear regression on 6 metrics for this prototype to see which effect the mile per gallon (MPG), From our summary statistics, we can see that: 1)  both the length of the vehicle (vehicle_length) and ground clearance (ground_clearance) are statistically likely to effect or impact on miles per gallon on this prototype (note p-value *** to the right of each), whereas the vehicle weight (vehicle_weight), spoiler angle (spoiler_angle) and All Wheel Drive (AWD) have random non-significant variance (>0.05);  2) The slope of this regression line is not zero, as shown by our overall p-value for this model (which is: 5.35e-11) and <0.05, which is statistically significant and gives evidence to reject the null hypothesis; and 3) the r-squared value for this analysis is 0.7149, which indicates that ~71% of all of the MPG predictions are determined by this prototype effectively.
 
