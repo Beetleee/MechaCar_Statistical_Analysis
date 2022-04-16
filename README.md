@@ -4,7 +4,7 @@
 
 ### For this Project, I was tasked with using R Studio to analyze statistics for AutosRUs’ newest prototype, the MechaCar. This product was having problems during production which was blocking progress for the company.  Specifically, I am helping to identify particular variables which predict the miles per gallon (mpg) for the prototype (using linear regression model). I next collected summary statistics on the pounds per square inch (PSI) of the suspension coils of the prototype. I ran t-tests to see if the lots are different from the mean total population. Finally, I oraganized the design for a prospective study to compare the vehicle performance of the MechaCar to vehicles from other manufacturers.
 
-## Deliverable 1: Linear Regression to Predict MPG
+## **Deliverable 1: Linear Regression to Predict MPG**
 
 ### Statistical Summary: 
 
