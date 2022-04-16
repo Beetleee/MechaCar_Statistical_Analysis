@@ -8,7 +8,7 @@
 
 ### Statistical Summary: 
 
-https://github.com/Beetleee/MechaCar_Statistical_Analysis/blob/main/Resources/plot1.png
+![]https://github.com/Beetleee/MechaCar_Statistical_Analysis/blob/main/Resources/plot1.png
 
 ### We performed a linear regression on 6 metrics for this prototype to see which effect the mile per gallon (MPG), From our summary statistics, we can see that: 1)  both the length of the vehicle (vehicle_length) and ground clearance (ground_clearance) are statistically likely to effect or impact on miles per gallon on this prototype (note p-value *** to the right of each), whereas the vehicle weight (vehicle_weight), spoiler angle (spoiler_angle) and All Wheel Drive (AWD) have random non-significant variance (>0.05);  2) The slope of this regression line is not zero, as shown by our overall p-value for this model (which is: 5.35e-11) and <0.05, which is statistically significant and gives evidence to reject the null hypothesis; and 3) the r-squared value for this analysis is 0.7149, which indicates that ~71% of all of the MPG predictions are determined by this prototype effectively.
 
@@ -22,11 +22,11 @@ https://github.com/Beetleee/MechaCar_Statistical_Analysis/blob/main/Resources/pl
 
 ### All Manufacturing Lots:
 
-plot 2
+![]https://github.com/Beetleee/MechaCar_Statistical_Analysis/blob/main/Resources/plot2.png
 
 ### The 3 Individual Lots:
 
-plot3
+![]https://github.com/Beetleee/MechaCar_Statistical_Analysis/blob/main/Resources/plot3.png
 
 ### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
 
@@ -36,7 +36,7 @@ plot3
 
 ### variability in lots:
 
-Plot 4
+![]https://github.com/Beetleee/MechaCar_Statistical_Analysis/blob/main/Resources/plot4.png
 
 ### This Box Plot shows the large variability in Lot3 vs. Lots 1 & 2.
 
@@ -48,11 +48,11 @@ Plot 4
 
 #### the code for a one sample t-test across all the given data for the Lots:
 
-Plot 5
+![]https://github.com/Beetleee/MechaCar_Statistical_Analysis/blob/main/Resources/plot5.png
 
 #### The summary statistics for the one sample t-test:
 
-Plot 6
+![]https://github.com/Beetleee/MechaCar_Statistical_Analysis/blob/main/Resources/plot6.png
 
 ### The results show that the true mean of the population is 1497.5, and with a p-value of >0.05 (0.06028) this is NOT significant and therefore, we do not have enough evidence to reject the null hypothesis.  SO, the mean of all three of these Lots is statistically similar to each other (to the presumed mean of 1500).  
 
@@ -60,11 +60,11 @@ Plot 6
 
 #### the code for a one sample t-test for each individual t-test:
 
-Plot 7
+![]https://github.com/Beetleee/MechaCar_Statistical_Analysis/blob/main/Resources/plot7.png
 
 #### The summary statistics for each sample t-test:
 
-Plot 8
+![]https://github.com/Beetleee/MechaCar_Statistical_Analysis/blob/main/Resources/plot8.png
 
 ### When we look at the individual Lots, Lot1 actually has the true sample mean of 1500.  We see that our p-value also shows that we cannot reject the null hypothesis that there is no statistical difference between the observed mean (1500) and the presumed mean (1500). For Lot2, we see the same thing. The observed mean is 1500.2, with a p-value of 0.61 -also not significant. For Lot3, the observed mean is 1496.14, which is different from the presumed mean. When we look at the p-value, we see it is 0.04, which IS significant (<0.05), and we can reject the null hypothesis, which is to say we have statistical support to say that the mean is different from the presumed population.  Overall, this indicates that something is wrong with Lot3 and the team needs to focus on possibly removing/replacing this batch.
 
